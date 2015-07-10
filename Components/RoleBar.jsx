@@ -4,7 +4,7 @@ RoleBar = React.createClass({
       <nav id="roleBar" className="top-bar" data-topbar role="navigation">
         <ul className="title-area">
           <li className="name">
-            <h1><a href="#">Restore Direct</a></h1>
+            <h1><a href="#">RD Enterprise</a></h1>
           </li>
           {/* Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone */}
           <li className="toggle-topbar menu-icon"><a href="#"></a></li>

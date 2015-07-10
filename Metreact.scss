@@ -43,7 +43,7 @@ $icon-bar-font-color: $white;
 $icon-bar-font-color-hover: $icon-bar-font-color;
 $icon-bar-font-size: 1rem;
 // $icon-bar-hover-color: $primary-color;
-$icon-bar-hover-color: #a1a1a4;
+$icon-bar-hover-color: fade-out($icon-bar-active-color, 0.4);
 $icon-bar-icon-color: $white;
 $icon-bar-icon-color-hover: $icon-bar-icon-color;
 $icon-bar-icon-size: 1.875rem;
@@ -63,11 +63,11 @@ $icon-bar-disabled-opacity: 0.7;
   position: fixed;
   top: 0; //$rolebar_height;
   left: 0;
-  border-right: 3px solid #a1a1a4;
+  border-right: 3px solid $icon-bar-active-color;
 
   .item {
     &:not(.active):hover {
-      background-color: fade-out($icon-bar-active-color, 0.4);
+      background-color: $icon-bar-hover-color;
     }
 
     &.active {
@@ -90,25 +90,25 @@ $icon-bar-disabled-opacity: 0.7;
     position: relative;
 
     &:first-of-type {
-      border-top: 1px solid #a1a1a4;
+      border-top: 1px solid $icon-bar-active-color;
     }
 
     &:not(.active) {
-      border-bottom: 1px solid #a1a1a4;
+      border-bottom: 1px solid $icon-bar-active-color;
     }
 
     a {
       color: #fff;
-      background-color: #624b6c;
+      background-color: scale-color($icon-bar-active-color, $lightness: -30%);
 
       &:not(.active):hover {
-        background-color: fade-out(#91a63b, 0.4);
+        background-color: fade-out($icon-bar-active-color, 0.2);
       }
     }
 
     &.active {
       a {
-        background-color: #91a63b;
+        background-color: $icon-bar-active-color;
       }
     }
   }
