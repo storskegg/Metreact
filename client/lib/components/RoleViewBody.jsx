@@ -17,7 +17,7 @@ RoleViewBody = React.createClass({
                   <h4>Now with awesome and sugar!</h4>
                 </header>
 
-                <table role="grid">
+                <table className="rhp-table" role="grid">
                   <thead>
                     <tr>
                       <th>Rep ID</th>
@@ -87,7 +87,7 @@ RoleViewBody = React.createClass({
                   <h1>Fax <i className="ion-arrow-right-c"></i> Email Targets</h1>
                 </header>
 
-                <table role="grid">
+                <table className="rhp-table" role="grid">
                   <thead>
                     <tr>
                       <th>Fax Number</th>

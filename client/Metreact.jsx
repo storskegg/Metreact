@@ -1,4 +1,4 @@
-let App = React.createClass({
+App = React.createClass({
   render() {
     'use strict';
 
