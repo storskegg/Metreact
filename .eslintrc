@@ -1,0 +1,21 @@
+{
+  "plugins": [
+    "react"
+  ],
+  "globals": {
+    "React": true
+  },
+  "env": {
+    "node": true,
+    "meteor": true,
+    "es6": true,
+    "mongo": true,
+    "browser": true
+  },
+  "ecmaFeatures": {
+    "jsx": true
+  },
+  "rules": {
+    "quotes": 0
+  }
+}
