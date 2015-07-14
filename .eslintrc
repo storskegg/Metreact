@@ -3,7 +3,8 @@
     "react"
   ],
   "globals": {
-    "React": true
+    "React": true,
+    "WL_DOMAINS": true
   },
   "env": {
     "node": true,
