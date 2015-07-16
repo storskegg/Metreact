@@ -1,6 +1,6 @@
 App = React.createClass({
   render() {
-    'use strict';
+    "use strict";
 
     return (
       <div>

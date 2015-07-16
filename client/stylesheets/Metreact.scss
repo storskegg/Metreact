@@ -1,4 +1,4 @@
-@import "lib/_settings.scss";
+@import "_settings.scss";
 @import ".meteor/local/build/programs/server/assets/packages/matthew_foundation5-sass/foundation";
 @import '.meteor/local/build/programs/server/assets/packages/meteoric_ionicons-sass/ionicons';
 
@@ -138,7 +138,7 @@ $icon-bar-disabled-opacity: 0.7;
 .rhp-table {
   thead {
     background-color: $primary-color;
-    
+
     th, td {
       color: #fff;
     }

@@ -1,5 +1,7 @@
 RoleViewBody = React.createClass({
   render() {
+    "use strict";
+
     return (
       <div styleName="position: relative;">
         <ul className="tabs vertical" data-tab>

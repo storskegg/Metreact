@@ -1,5 +1,7 @@
 RolesList = React.createClass({
   render() {
+    "use strict";
+
     return (
       <nav id="rolesList" className="roles-list vertical five-up">
         <a className="item">

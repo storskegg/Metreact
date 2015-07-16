@@ -1,6 +1,8 @@
 NewTaskForm = React.createClass({
-  onSubmit(evt) {
-    evt.preventDefault();
+  onSubmit(e) {
+    "use strict";
+
+    e.preventDefault();
 
     let taskContent = React.findDOMNode(this.refs.content).value;
 
@@ -12,6 +14,8 @@ NewTaskForm = React.createClass({
   },
 
   render() {
+    "use strict";
+
     return (
       <form onSubmit={this.onSubmit}>
         <input type="text" ref="content" placeholder="Add a task..." />

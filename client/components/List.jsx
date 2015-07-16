@@ -1,12 +1,15 @@
-// ES6 class syntax will break the mixins. Must use React.createClass()
 List = React.createClass({
   mixins: [ReactMeteorData],
   getMeteorData() {
+    "use strict";
+
     return {
       tasks: Tasks.find().fetch()
     };
   },
   render() {
+    "use strict";
+
     return (
       <ul>
         {this.data.tasks.map((task) => {

@@ -1,5 +1,3 @@
-"use strict";
-
 Accounts.validateNewUser((user) => {
   if (WL_DOMAINS.join('|').toLowerCase().match(user.services.google.email.split('@')[1].toLowerCase())) {
     return true;

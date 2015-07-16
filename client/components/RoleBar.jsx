@@ -1,5 +1,7 @@
 RoleBar = React.createClass({
   render() {
+    "use strict";
+
     return (
       <nav id="roleBar" className="top-bar" data-topbar role="navigation">
         <ul className="title-area">
