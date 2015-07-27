@@ -12,7 +12,7 @@ List = React.createClass({
 
     return (
       <ul>
-        {this.data.tasks.map((task) => {
+        {this.data.tasks.map(function (task) {
           return <li key={task._id}>{task.content}</li>;
         })}
       </ul>

@@ -1,4 +1,4 @@
-App = React.createClass({
+Metreact = React.createClass({
   render() {
     "use strict";
 
