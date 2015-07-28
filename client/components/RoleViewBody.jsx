@@ -11,12 +11,14 @@ RoleViewBody = React.createClass({
           <li className="tab-title"><a href="#panel41">Tab 4</a></li>
         </ul>
         <div className="tabs-content">
+          <AlertsList />
+          <LoginForm />
           <div className="content active" id="repReport">
             <div className="row fluid">
               <div className="small-12 columns">
                 <header>
                   <h1>Sales Rep Report</h1>
-                  <h4>Now with awesome and sugar!</h4>
+                  <h4>Now with awesome sauce!</h4>
                 </header>
 
                 <table className="rhp-table" role="grid">
